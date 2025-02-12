@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .box {
+            background-color: rgb(155, 211, 42);
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 4px 4px 10px rgba(255, 30, 30, 0.3);
+        }
+
+        .about, .do, .Notdo, .table-container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+            line-height: 1.6;
+        }
+
+        .about h3, .do h3, .Notdo h3 {
+            cursor: pointer;
+            color: #2c3e50;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .about h3:hover, .do h3:hover, .Notdo h3:hover {
+            color: #e74c3c;
+            transform: scale(0.9);
+        }
+
+        .table-container h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        #tourist-table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #tourist-table td, #tourist-table th {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        #tourist-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #tourist-table tr:hover {
+            background-color: #ddd;
+        }
+
+        #tourist-table th {
+            padding: 12px;
+            background-color: rgb(155, 211, 42);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Container">
+        <div class="box">Welcome to West Bengal</div>
+
+        <div class="about">
+            <h3>About West Bengal:</h3>
+            <p>West Bengal is a land of breathtaking landscapes, rich heritage, and vibrant culture. From the misty
+                hills of Darjeeling offering stunning views of Kanchenjunga to the dense mangrove forests of Sundarbans,
+                home to the majestic Royal Bengal Tiger, the state’s natural beauty is mesmerizing. Kolkata, the
+                cultural capital, boasts colonial-era architecture, bustling markets, and grand celebrations of Durga
+                Puja. The historical sites of Murshidabad and Bishnupur reflect Bengal’s glorious past, while the serene
+                beaches of Digha and Mandarmani provide a perfect retreat. Bengali cuisine, with its mouth-watering
+                dishes like Macher Jhol, Rosogolla, and Shorshe Ilish, adds to the state’s charm. Tourists can explore
+                adventure trails, witness artistic traditions, and indulge in the warmth of Bengali hospitality. Whether
+                it’s history, nature, food, or festivals, West Bengal has something unique for every traveler.</p>
+        </div>
+
+        <div class="table-container">
+            <h1>Famous Tourist Places in West Bengal</h1>
+            <table id="tourist-table">
+                <tr>
+                    <th>Tourist Place</th>
+                    <th>Specialty</th>
+                    <th>Local Name</th>
+                </tr>
+                <tr>
+                    <td>Darjeeling</td>
+                    <td>Scenic mountains, Tea gardens, Toy Train</td>
+                    <td>Queen of Hills</td>
+                </tr>
+                <tr>
+                    <td>Sundarbans</td>
+                    <td>Mangrove forest, Royal Bengal Tiger</td>
+                    <td>World’s Largest Delta</td>
+                </tr>
+                <tr>
+                    <td>Victoria Memorial</td>
+                    <td>Colonial architecture, Historical museum</td>
+                    <td>Symbol of Kolkata</td>
+                </tr>
+                <tr>
+                    <td>Digha</td>
+                    <td>Beautiful beaches, Seafood</td>
+                    <td>Beach Paradise of Bengal</td>
+                </tr>
+                <tr>
+                    <td>Murshidabad</td>
+                    <td>Historical palaces, Nawabi heritage</td>
+                    <td>Land of the Nawabs</td>
+                </tr>
+                <tr>
+                    <td>Bishnupur</td>
+                    <td>Terracotta temples, Baluchari sarees</td>
+                    <td>Temple Town</td>
+                </tr>
+                <tr>
+                    <td>Shantiniketan</td>
+                    <td>Visva-Bharati University, Rabindranath Tagore’s legacy</td>
+                    <td>Abode of Peace</td>
+                </tr>
+                <tr>
+                    <td>Kalimpong</td>
+                    <td>Serene hills, Buddhist monasteries</td>
+                    <td>Hidden Gem of Bengal</td>
+                </tr>
+                <tr>
+                    <td>Kolkata</td>
+                    <td>Heritage, Food, Festivals</td>
+                    <td>City of Joy</td>
+                </tr>
+                <tr>
+                    <td>Mayapur</td>
+                    <td>ISKCON temple, Spiritual center</td>
+                    <td>Holy Land of Krishna</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="do">
+            <h3>Things to Do in West Bengal</h3>
+            <p>West Bengal offers a diverse range of activities for travelers. You can take a scenic toy train ride in
+                Darjeeling, explore the Sundarbans to spot the Royal Bengal Tiger, or relax on the golden beaches of
+                Digha and Mandarmani. History lovers can visit Victoria Memorial in Kolkata or explore the Nawabi
+                heritage of Murshidabad. Experience the artistic charm of Bishnupur’s terracotta temples and enjoy the
+                cultural vibrance of Shantiniketan, founded by Rabindranath Tagore. Food lovers can indulge in authentic
+                Bengali cuisine like Rosogolla, Mishti Doi, and Shorshe Ilish. Whether it's adventure, heritage, nature,
+                or food—West Bengal has something for everyone! 🌿🏰🏖</p>
+        </div>
+
+        <div class="Notdo">
+            <h3>Things not to Do</h3>
+            <p>While visiting West Bengal, tourists should be mindful of certain things to ensure a smooth and enjoyable
+                experience. Respecting local culture, following traffic rules, maintaining cleanliness, and avoiding
+                sensitive political discussions will help create a positive experience for both visitors and locals.</p>
+        </div>
+    </div>
+</body>
+
+</html>
